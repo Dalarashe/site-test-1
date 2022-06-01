@@ -1,0 +1,102 @@
+p
+{
+    font-size: 2em;
+    font-family: Impact
+    font-weight : bold;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.flottant
+{
+float: right;
+clear: both;
+
+}
+
+
+
+body
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+
+
+
+h1
+{
+    color: rgb(240,96,204);
+    background-color: yellow; /* Le fond de la page sera noir */
+    color: green; /* Le texte de la page sera blanc */
+    border: 9px red solid;
+    border-radius: 6px / 30px;
+}
+
+/* éléments avec une class */
+
+.tu, .ti
+{
+    color: red; font-weight: bold; 
+}
+
+
+.yu
+{
+    border: 3px blueviolet solid;
+    box-shadow: 6px 6px 3px yellow inset;
+    text-shadow: 5px 5px 3px black;
+
+
+}
+
+
+
+h1:hover
+{
+    border-left: 3px solid yellowgreen;
+
+
+}
+
+p:hover
+{
+    border-left: 3px solid brown;
+
+
+}
+
+a:hover
+{
+    color: blue;
+
+
+}
+
+a:active
+{
+    color: blueviolet;
+
+
+}
+
+.yu:hover
+{
+    color: gold;
+
+
+}
+
+
+
+
+a:visited
+
+
+a:focus
+{
+    color: aquamarine;
+
+
+}
